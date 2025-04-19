@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "tailwindcss-motion";
+@plugin "tailwindcss-intersect";
 
 :root {
   --link-hover: #5FA8FB;
@@ -22,6 +24,7 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: #fff;
     color: var(--text-color-primary);
+    user-select: none;
   }
 
   img, picture, video, canvas, svg {
